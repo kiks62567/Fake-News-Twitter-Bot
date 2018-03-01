@@ -11,11 +11,11 @@ start_time = time.time()
 
 def main():
     # Uses tweepy to access twitter to allow the ability to tweet
-    consumer_key = "jnEasKhjry2TmPTHfRYmJlCsw"
-    consumer_secret = "vrmAvSgxobKfhqBhZ71Sh7WsL5Mu0pUD25F1yh3Mk2JMhfErqP"
+    consumer_key = #consumer key
+    consumer_secret = #consumer secret
 
-    access_token = "962396180239060992-2Q69IxZLyi6Wzds8g92o6mVwKpj7LXj"
-    access_token_secret = "6a4u4uI3Pcvuewb3kyRCOzjuyeFS62aPpAOshdTKehsvH"
+    access_token = #enter access token
+    access_token_secret = #enter access password
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
